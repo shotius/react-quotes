@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+ * {
+	 margin: 0;
+	 padding: 0;
+}
+ body {
+	 height: 100vh;
+	 background-color: green;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ #quote-box {
+	 background-color: white;
+	 width: 38%;
+	 padding: 15px;
+	 border-radius: 3px;
+}
+ #quote-box #text {
+	 text-align: center;
+}
+ #quote-box #text i {
+	 font-size: 2em;
+	 padding-right: 5px;
+}
+ #quote-box #text #quote-text {
+	 font-size: 2em;
+	 font-family: 'Staatliches', cursive;
+}
+ #quote-box #author {
+	 width: 100%;
+	 text-align: right;
+	 padding-top: 10px;
+	 padding-bottom: 0px;
+	 font-family: 'Nothing You Could Do', cursive;
+	 font-size: 20px;
+	 font-weight: 200;
+}
+ #quote-box .buttons {
+	 padding: 7px;
+	 display: block;
+	 margin: auto;
+}
+ #quote-box .buttons .button {
+	 height: 38px;
+	 border: none;
+	 border-radius: 3px;
+	 padding: 8px 18px 6px 18px;
+	 margin-top: 30px;
+	 cursor: pointer;
+}
+ #quote-box .buttons .button:hover {
+	 opacity: 0.5;
+}
+ #quote-box .buttons .button#new-quote {
+	 float: right;
+	 color: white;
+	 background: gray;
+	 padding: 4px;
+}
+ #quote-box .buttons .button#tweet-quote {
+	 float: left;
+	 text-align: center;
+	 height: 22px;
+	 background-color: gray;
+	 color: white;
+}
+ 
