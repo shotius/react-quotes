@@ -1,4 +1,3 @@
-let quoteData ;
 
 function randomQuote(quotes){
   let len = quotes.length;
